@@ -1,6 +1,7 @@
 ﻿Imports System.IO
 
 Public Class Form1
+
     Dim filePath As String = "sample.txt"
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
@@ -40,5 +41,6 @@ Public Class Form1
         Catch ex As Exception
             MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
+
     End Sub
 End Class
